@@ -144,4 +144,6 @@ This dashboard enables:
 ##  Dashboard Preview  
 
 ```text
-![Ecommerce Dashboard](dashboard.png)
+
+![ECOMMERCE SALES ANALYSIS](https://github.com/user-attachments/assets/101a4392-ca9b-4044-8415-8f61f8e2d1f9)
+
