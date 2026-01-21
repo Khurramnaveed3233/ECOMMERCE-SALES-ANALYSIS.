@@ -3,7 +3,7 @@
 ![E-Commerce Sales Analysis Dashboard](https://github.com/user-attachments/assets/80a58a5c-0add-4de2-92f1-9cf41e7e0542)
 
 
-## 1️⃣ Business Context
+## Business Context
 
 ### What This Dashboard Is About  
 This dashboard provides a **high-level performance overview** of an e-commerce business. It tracks sales, profit, orders, quantity, growth trends, category performance, regional performance, and top-selling products. It is designed for leadership and business teams to quickly understand how the business is performing and where to focus next.
@@ -18,7 +18,7 @@ This dashboard centralizes all critical metrics into one view for **faster, data
 
 ---
 
-## 2️⃣ KPIs Summary
+##  KPIs Summary
 
 ### Key KPIs Displayed
 
@@ -53,7 +53,7 @@ This dashboard centralizes all critical metrics into one view for **faster, data
 
 ---
 
-## 3️⃣ Visual-Wise Insights
+## Visual-Wise Insights
 
 ### A) Sales & Profit Trend Chart  
 **What it shows:**  
@@ -115,7 +115,7 @@ These products should receive **priority in inventory, ads, and bundling offers*
 
 ---
 
-## 4️⃣ Top 5 Key Insights
+##  Top 5 Key Insights
 
 - 📈 Sales grew by **20.6% YoY**, showing strong business momentum  
 - 💰 Technology is the **most profitable category**  
@@ -125,7 +125,7 @@ These products should receive **priority in inventory, ads, and bundling offers*
 
 ---
 
-## 5️⃣ Business Recommendations
+##  Business Recommendations
 
 - Increase marketing spend on **Technology and Phones**  
 - Review pricing and supplier costs for **Furniture**  
@@ -136,20 +136,9 @@ These products should receive **priority in inventory, ads, and bundling offers*
 
 ---
 
-## 6️⃣ Stakeholder-Style Executive Summary
+##  Stakeholder-Style Executive Summary
 
 This dashboard shows that the business is performing well with strong year-over-year growth in sales, orders, and product volume. Revenue has crossed $484K, and profit stands at nearly $50K, reflecting a healthy but competitive market position. Technology products are the top profit drivers, while Phones and Chairs dominate product sales. Regionally, the Central and West zones generate the most revenue.
 
 However, profit growth is not keeping pace with sales growth, which signals rising costs or pricing pressure. To sustain long-term growth, the company should focus on high-margin categories, optimize low-profit segments like Furniture, and invest more in top-performing regions. These actions can help improve profitability while maintaining sales momentum.
-
----
-
-## 7️⃣ Interview Pitch (60-Second Script)
-
-> “I built an interactive e-commerce sales dashboard to analyze revenue, profit, growth trends, and product performance. The dashboard highlights key KPIs such as total sales of $484K, profit of $49K, and a profit margin of 10.2%, along with year-over-year growth metrics.  
->  
-> It helps identify that Technology is the most profitable category, while Phones are the top-selling product. Regionally, the Central and West areas generate the highest revenue. One important insight is that profit growth is slower than sales growth, indicating margin pressure.  
->  
-> Based on these insights, I recommended focusing marketing efforts on high-margin categories, optimizing pricing for low-profit segments, and expanding in top-performing regions. This dashboard allows stakeholders to make fast, data-driven decisions and track business performance in real time.”
-
 
