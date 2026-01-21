@@ -143,7 +143,5 @@ This dashboard enables:
 
 ##  Dashboard Preview  
 
-```text
-
-![ECOMMERCE SALES ANALYSIS](https://github.com/user-attachments/assets/101a4392-ca9b-4044-8415-8f61f8e2d1f9)
+![ECOMMERCE SALES ANALYSIS](https://github.com/user-attachments/assets/a993c884-2148-4fb9-9e35-674cd1587ff6)
 
