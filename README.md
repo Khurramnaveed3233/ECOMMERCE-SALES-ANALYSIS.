@@ -1,147 +1,155 @@
-#  E-Commerce Sales Analysis Dashboard (Excel)
+# E-Commerce Sales Analysis Dashboard – Business Presentation
 
-## Project Overview  
-This project focuses on analyzing e-commerce sales data using **Microsoft Excel** and building an **interactive dashboard** to track business performance.  
-The goal was to transform raw transactional data into **actionable insights** for decision-making by visualizing KPIs such as Sales, Profit, Orders, Quantity, Growth Trends, and Category Performance.
+![E-Commerce Sales Analysis Dashboard](https://github.com/user-attachments/assets/80a58a5c-0add-4de2-92f1-9cf41e7e0542)
 
----
 
-##  Business Problem  
-E-commerce companies generate large volumes of sales data, but without proper analysis, it’s difficult to:  
-- Identify top-performing categories and regions  
-- Track year-over-year (YoY) growth  
-- Understand profit margins and order trends  
-- Make data-driven decisions for marketing and inventory  
+## 1️⃣ Business Context
 
-**Objective:**  
-To create a centralized Excel dashboard that provides:  
-- Quick business health snapshot  
-- Trend analysis  
-- Category and regional insights  
-- Filterable views for decision makers  
+### What This Dashboard Is About  
+This dashboard provides a **high-level performance overview** of an e-commerce business. It tracks sales, profit, orders, quantity, growth trends, category performance, regional performance, and top-selling products. It is designed for leadership and business teams to quickly understand how the business is performing and where to focus next.
+
+### What Business Problem It Solves  
+- Lack of visibility into overall sales and profit performance  
+- Difficulty identifying **which categories and regions drive revenue**  
+- No clear way to track **growth trends over time**  
+- Challenges in spotting **high-performing vs low-performing products**
+
+This dashboard centralizes all critical metrics into one view for **faster, data-driven decisions**.
 
 ---
 
-##  Tools & Technologies  
-- **Microsoft Excel**  
-  - Power Query (data cleaning)  
-  - Pivot Tables & Pivot Charts  
-  - Slicers for interactivity  
-  - Conditional Formatting  
-- **Excel Functions Used:**  
-  - SUMIFS, COUNTIFS  
-  - VLOOKUP / XLOOKUP  
-  - IF, TEXT, ROUND  
-  - DATE, YEAR, MONTH  
-- **Data Visualization:**  
-  - KPI Cards  
-  - Line Charts (Trends)  
-  - Bar Charts (Category & Sub-category)  
-  - Donut Chart (Sales Share %)  
-  - Map Chart (Sales by State)  
+## 2️⃣ KPIs Summary
+
+### Key KPIs Displayed
+
+- **Total Sales:** $484,247  
+  → Shows overall revenue generated  
+
+- **Total Profit:** $49,544  
+  → Indicates how much the business actually earns after costs  
+
+- **Total Quantity Sold:** 7,581  
+  → Total number of items sold  
+
+- **Number of Orders:** 1,993  
+  → Total customer transactions  
+
+- **Profit Margin:** 10.23%  
+  → Profitability level of the business  
+
+- **YoY Growth:**  
+  - Sales: +20.62%  
+  - Profit: +14.41%  
+  - Quantity: +27.45%  
+  - Orders: +21.64%  
+  - Margin: Slight decline  
+
+### What These Numbers Indicate
+
+- The business is in a **healthy growth phase**  
+- Strong increases in **sales, orders, and quantity**  
+- Profit is growing but **slower than sales**, which suggests rising costs or discounting  
+- Profit margin is **stable but under pressure**, signaling the need for cost control
 
 ---
 
-##  Dataset Description  
-The dataset contains historical e-commerce transactions with the following key fields:  
-- Order ID  
-- Order Date  
-- Customer Name  
-- State / Region  
-- Category  
-- Sub-Category  
-- Sales  
-- Profit  
-- Quantity  
+## 3️⃣ Visual-Wise Insights
+
+### A) Sales & Profit Trend Chart  
+**What it shows:**  
+Monthly sales and profit over time  
+
+**Key Insight:**  
+Sales and profit are rising steadily with seasonal peaks  
+
+**Business Implication:**  
+The company can plan **marketing campaigns and inventory** around high-sales months to maximize revenue
 
 ---
 
-##  Data Cleaning & Preparation  
-1. Removed duplicates and null values  
-2. Standardized date formats  
-3. Created calculated columns:  
-   - Year  
-   - Month  
-   - Profit Margin (%)  
-4. Ensured numeric consistency for Sales & Profit  
-5. Built relationships using helper columns  
+### B) Category-Wise Profit  
+**What it shows:**  
+Profit contribution by category (Furniture, Office Supplies, Technology)  
+
+**Key Insight:**  
+Technology is the most profitable category, followed by Office Supplies. Furniture contributes the least profit  
+
+**Business Implication:**  
+Marketing and product expansion should focus on **Technology**, while Furniture pricing and costs need review
 
 ---
 
-## 📈 Dashboard Components  
+### C) Category-Wise Sales Share (%)  
+**What it shows:**  
+Sales distribution across categories  
 
-### 1️⃣ KPI Cards  
-- **Total Sales**  
-- **Total Profit**  
-- **Total Quantity Sold**  
-- **Number of Orders**  
-- **Profit Margin %**  
-- **YoY Growth % (for each KPI)**  
+**Key Insight:**  
+Sales are relatively balanced, but profit is not evenly distributed  
 
-### 2️⃣ Sales & Profit Trend  
-- Monthly sales vs profit comparison  
-- Identifies seasonal trends and growth patterns  
-
-### 3️⃣ Category-Wise Profit  
-- Bar chart showing profit contribution by:  
-  - Furniture  
-  - Office Supplies  
-  - Technology  
-
-### 4️⃣ Category-Wise Sales Share (%)  
-- Donut chart showing % contribution of each category  
-
-### 5️⃣ Sales by State (Map)  
-- Geographic visualization of revenue distribution  
-
-### 6️⃣ Top 10 Sub-Categories  
-- Horizontal bar chart ranking highest revenue products  
-
-### 7️⃣ Filters (Slicers)  
-- **Year**  
-- **Region**  
-- Allows dynamic filtering across all visuals  
+**Business Implication:**  
+Some categories generate **high revenue but low profit**, which requires pricing and sourcing optimization
 
 ---
 
-##  Key Insights  
-- 📈 Technology category generates the **highest profit**  
-- 🏆 Phones and Chairs are among **top-selling sub-categories**  
-- 🌍 Central & West regions contribute the most revenue  
-- 🔁 Steady YoY growth observed in total sales and orders  
-- ⚠ Some categories show high sales but **low profit margins**  
+### D) Sales by State (Map)  
+**What it shows:**  
+Geographical sales distribution across the US  
+
+**Key Insight:**  
+Central and West regions generate the highest revenue  
+
+**Business Implication:**  
+Expansion efforts and regional promotions should focus on **high-performing states**
 
 ---
 
-##  Business Impact  
-This dashboard enables:  
-- Faster executive decision-making  
-- Identification of high-profit products  
-- Regional sales optimization  
-- Inventory planning  
-- Marketing strategy alignment  
+### E) Top 10 Sub-Categories  
+**What it shows:**  
+Top-selling product types (Phones, Chairs, Machines, Storage, Tables)  
+
+**Key Insight:**  
+Phones and Chairs are the highest revenue sub-categories  
+
+**Business Implication:**  
+These products should receive **priority in inventory, ads, and bundling offers**
 
 ---
 
-##  How to Use  
-1. Download the Excel file from this repository  
-2. Open in Microsoft Excel (2019+ recommended)  
-3. Use slicers to filter Year & Region  
-4. Hover over charts for detailed insights  
+## 4️⃣ Top 5 Key Insights
+
+- 📈 Sales grew by **20.6% YoY**, showing strong business momentum  
+- 💰 Technology is the **most profitable category**  
+- 🌍 Central and West regions contribute the highest revenue  
+- 🏆 Phones are the **top-selling product**  
+- ⚠ Profit growth is slower than sales growth, indicating **margin pressure**
 
 ---
 
-##  Skills Demonstrated  
-- Data Cleaning & Transformation  
-- Excel Dashboard Design  
-- KPI Development  
-- Data Visualization  
-- Business Analysis  
-- Storytelling with Data  
+## 5️⃣ Business Recommendations
+
+- Increase marketing spend on **Technology and Phones**  
+- Review pricing and supplier costs for **Furniture**  
+- Launch region-specific campaigns for **Central and West**  
+- Reduce discounting on low-margin products  
+- Bundle top products to increase **average order value**  
+- Improve forecasting for peak sales months
 
 ---
 
-##  Dashboard Preview  
+## 6️⃣ Stakeholder-Style Executive Summary
 
-![ECOMMERCE SALES ANALYSIS](https://github.com/user-attachments/assets/a993c884-2148-4fb9-9e35-674cd1587ff6)
+This dashboard shows that the business is performing well with strong year-over-year growth in sales, orders, and product volume. Revenue has crossed $484K, and profit stands at nearly $50K, reflecting a healthy but competitive market position. Technology products are the top profit drivers, while Phones and Chairs dominate product sales. Regionally, the Central and West zones generate the most revenue.
+
+However, profit growth is not keeping pace with sales growth, which signals rising costs or pricing pressure. To sustain long-term growth, the company should focus on high-margin categories, optimize low-profit segments like Furniture, and invest more in top-performing regions. These actions can help improve profitability while maintaining sales momentum.
+
+---
+
+## 7️⃣ Interview Pitch (60-Second Script)
+
+> “I built an interactive e-commerce sales dashboard to analyze revenue, profit, growth trends, and product performance. The dashboard highlights key KPIs such as total sales of $484K, profit of $49K, and a profit margin of 10.2%, along with year-over-year growth metrics.  
+>  
+> It helps identify that Technology is the most profitable category, while Phones are the top-selling product. Regionally, the Central and West areas generate the highest revenue. One important insight is that profit growth is slower than sales growth, indicating margin pressure.  
+>  
+> Based on these insights, I recommended focusing marketing efforts on high-margin categories, optimizing pricing for low-profit segments, and expanding in top-performing regions. This dashboard allows stakeholders to make fast, data-driven decisions and track business performance in real time.”
+
 
